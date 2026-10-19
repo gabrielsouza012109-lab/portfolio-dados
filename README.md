@@ -1,6 +1,6 @@
 # Portfólio — Gabriel Amadai de Souza
 
-Portfólio pessoal de Gabriel Amadai de Souza, analista de dados, BI e Supply Chain. Construído com React, TanStack Start e Tailwind CSS.
+Meu Portfólio pessoal, analista de dados, BI e Supply Chain. Construído com React, TanStack Start e Tailwind CSS.
 
 ## Executar localmente
 
