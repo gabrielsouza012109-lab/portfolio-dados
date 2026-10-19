@@ -1,0 +1,4 @@
+- Keep the public portfolio as a single prerendered TanStack route with in-page navigation; GitHub Pages cannot execute a server runtime.
+- Keep the portrait, résumé, and social sharing image in `public/` so they are deployed with the site.
+- Derive the router basepath from the conditional Vite base for GitHub Pages; prerender strips that basepath when writing the client index.html and route matching still works under the repository path.
+- All page copy lives in the bilingual dictionary in `src/lib/content.ts` (pt/en) — never hardcode user-facing strings in `src/routes/index.tsx`; theme and language toggles persist in localStorage keys `folio-theme` / `folio-lang`, and dark-mode tokens live in the `.dark` block of `src/styles.css`.
